@@ -1,0 +1,65 @@
+    /* HeroSection.css */
+    .hero-section {
+        background-color: #121212;
+        color: white;
+        padding: 0 3rem;
+        margin-left: 1rem;
+    }
+    
+    .hero-content {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+    
+    .hero-image {
+        position: relative;
+        flex: 1;
+    }
+    
+    .hero-image img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .profession {
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        color: #00BCD4;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .hero-text {
+        flex: 1;
+    }
+    
+    .greeting {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .name {
+        font-size: 5rem;
+        font-weight: 700;
+        margin: 0.5rem 0 1.5rem;
+        color: #00BCD4;
+    }
+    
+    .bio {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        color: #cccccc;
+    }
+    
+    .tagline {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    
